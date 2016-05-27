@@ -33,7 +33,7 @@
 	letter-spacing: 1px;
 }
 
-.navbar-nav>li>a:not(.active) {
+.navbar-nav>li>a:not(.active):not(.navbar-brand) {
     background-color: #111;
 	color: #FF4444;
 }
@@ -43,7 +43,7 @@
 	color: #000000;
 }
 
-.navbar-nav>li>a:hover {
+.navbar-nav>li>a:not(.navbar-brand):hover {
 	background-color: #FF4444;
 	color: #000000;
 }
@@ -63,6 +63,28 @@
 .title {
 	padding-bottom: 20%;
 }
+
+.dropdown-menu {
+	padding: 0;
+	margin: 0;
+	font-family: District Pro;
+}
+
+.dropdown-menu>li>a {
+	background-color: #111;
+	padding: 7px;
+	padding-left: 30px;
+	padding-right: 5px;
+	color: #ff4444;
+	font-size: 1.2em;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color: #ff4444;
+	color: #111;
+}
+
+
 /*
 .main {
     background-color: #333;
