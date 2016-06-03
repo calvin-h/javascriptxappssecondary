@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Home</title>
+	<title>Shop</title>
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,11 +40,11 @@
 			<li class="dropdown">
 			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="navspan">SHOP</span> <span class="caret"></span></a>
 			  <ul class="dropdown-menu">
-				<li><a href="shop.html">Trending</a></li>
-				<li><a href="shop.html">Rising</a></li>
-				<li><a href="shop.html">Top Rated</a></li>
-				<li><a href="shop.html">Popular</a></li>
-				<li><a href="shop.html">Staff Picks</a></li>
+				<li><a href="#">Trending</a></li>
+				<li><a href="#">Rising</a></li>
+				<li><a href="#">Top Rated</a></li>
+				<li><a href="#">Popular</a></li>
+				<li><a href="#">Staff Picks</a></li>
 			  </ul>
 			</li>
 		  </ul>
@@ -71,25 +71,26 @@
 	  </ol>
 
 	  <!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				<a href=""><img src="css/burgah1.jpg" style="width: 100%; vertical-align: center;" alt="slide1">
-				<div class="carousel-caption">
-					<h3 class="title"></h3>
-				</div>
-				</a>
-			</div>
+		<div class="carousel-inner" role="listbox" style="background-color: #111;">
 			
-			<div class="item">
-				<a href=""><img src="css/smokeybonesburger.jpg" style="width: 100%" alt="Chania">
+			<div class="item active caro">
+				<a href=""><img src="css/shakeshack.png" style="width: 100%" alt="Shake Shack">
 				<div class="carousel-caption">
 					<h3 class=""></b></h3>
 				</div>
 				</a>
 			</div>
 
-			<div class="item">
-				<a href=""><img src="css/shakeshackburgers.jpg" style="width: 100%" alt="Shake Shack Burgers">
+			<div class="item caro">
+				<a href=""><img src="css/wendys.png" style="width: 100%" alt="Wendy's">
+				<div class="carousel-caption">
+					<h3 class=""></h3>
+				</div>
+				</a>
+			</div>
+			
+			<div class="item caro">
+				<a href=""><img src="css/fiveguys.png" style="width: 100%" alt="Five Guys">
 				<div class="carousel-caption">
 					<h3 class=""></h3>
 				</div>
@@ -109,7 +110,13 @@
 		</div>
 	</div>
 	
-	<div id="chart_div" style="padding-left: 28%; text-align: center;"></div>
+	<div id="shopitems">
+		<div class="row shoprow">
+			<div class="col-md-4 shopitem">x</div>
+			<div class="col-md-4 shopitem">x</div>
+			<div class="col-md-4 shopitem">x</div>
+		</div>
+	</div>
 	
 	<script type="text/javascript">
 	function CheckPassword() {
@@ -125,12 +132,12 @@
 	Username: <input type="text" name="username">
 	Password: <input type="password" name="password">
 	</pre>
-	<input type="submit" value="log pÃ¥" 
+	<input type="submit" value="log på" 
 	  onclick="CheckPassword();return false;">
 	</form>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/homescript.js"></script>
+	<!--<script src="js/shopscript.js"></script>-->
 </body>
 </html>
