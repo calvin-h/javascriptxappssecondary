@@ -23,7 +23,7 @@ function drawChart() {
 	var options = {title:'Fast Food options with Number of Patrons.',
 				   width:1200,
 				   height:800,
-				   colors: ["#ff4444", "#ff8080", "#555", "#333", "#E81A1A", "#686868", "#888", "101010"],
+				   colors: ["#ff6363", "#ff9292", "#444", "#2b2b2b", "#fa3c3c", "#555", "#6b6b6b", "888"],
 				   pieHole: 0.4
 				   };
 	// Instantiate and draw our chart, passing in some options.
