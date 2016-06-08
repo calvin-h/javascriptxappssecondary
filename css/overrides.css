@@ -1,6 +1,8 @@
 .navigation {
 	padding: 0;
 	margin: 0;
+	border-radius: 0;
+	background-color: #111;
 }
 
 .nospace {
@@ -11,6 +13,8 @@
 .navbar {
 	padding: 0 8% 0 8%;
 	background-color: #111;
+	border-radius: 0;
+	border-bottom: 1px solid #ff4444;
 }
 
 .navbar-nav>li {
@@ -76,11 +80,11 @@
 
 .dropdown-menu>li>a {
 	background-color: #111;
-	padding: 7px;
+	padding: 12px;
 	padding-left: 30px;
 	padding-right: 5px;
 	color: #ff4444;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 .dropdown-menu>li>a:hover {
@@ -89,16 +93,35 @@
 }
 
 .caro {
-	background-color: #222;
+	background-color: #111;
+}
+
+#shopitems {
+	width: 100%;
+	max-width: 1400;
+	text-align: center;
+	margin: auto;
+	padding-top: 100px;
 }
 
 .shopitem {
-	height: 300px;
+	height: 350px;
 	text-align: center;
 }
 
 .shopiteminner {
 	margin: auto;
+}
+
+.shopitemimg {
+	height: 250px;
+	width: 250px;
+	border: none;
+	background-color: #222;
+}
+
+.shoprow {
+	padding-bottom: 60px;
 }
 
 
